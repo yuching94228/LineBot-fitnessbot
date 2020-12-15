@@ -1,0 +1,34 @@
+[{
+  "type": "text",
+  "text": "請點選您的性別\uD83D\uDE47"
+},{
+  "type": "imagemap",
+  "baseUrl": "https://icon-library.com/images/gender-icon/gender-icon-22.jpg#",
+  "altText": "please select your gender.",
+  "baseSize": {
+    "width": 1040,
+    "height": 780
+  },
+  "actions": [
+    {
+      "type": "message",
+      "area": {
+        "x": 20,
+        "y": 84,
+        "width": 485,
+        "height": 667
+      },
+      "text": "您選擇了女性"
+    },
+    {
+      "type": "message",
+      "area": {
+        "x": 538,
+        "y": 82,
+        "width": 493,
+        "height": 665
+      },
+      "text": "您選擇了男性"
+    }
+  ]
+}]

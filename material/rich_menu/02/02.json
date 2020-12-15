@@ -1,0 +1,167 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "water - 已複製",
+  "chatBarText": "請選擇飲水種類",
+  "areas": [
+    {
+      "bounds": {
+        "x": 13,
+        "y": 8,
+        "width": 384,
+        "height": 389
+      },
+      "action": {
+        "type": "postback",
+        "text": "水",
+        "data": "action=water_0"
+      }
+    },
+    {
+      "bounds": {
+        "x": 422,
+        "y": 25,
+        "width": 389,
+        "height": 368
+      },
+      "action": {
+        "type": "postback",
+        "text": "茶",
+        "data": "action=water_1"
+      }
+    },
+    {
+      "bounds": {
+        "x": 845,
+        "y": 25,
+        "width": 401,
+        "height": 372
+      },
+      "action": {
+        "type": "postback",
+        "text": "咖啡",
+        "data": "action=water_2"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1280,
+        "y": 25,
+        "width": 375,
+        "height": 372
+      },
+      "action": {
+        "type": "postback",
+        "text": "鮮奶",
+        "data": "action=water_4"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1681,
+        "y": 38,
+        "width": 392,
+        "height": 359
+      },
+      "action": {
+        "type": "postback",
+        "text": "豆漿",
+        "data": "action=water_5"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2103,
+        "y": 34,
+        "width": 389,
+        "height": 367
+      },
+      "action": {
+        "type": "postback",
+        "text": "湯",
+        "data": "action=water_5"
+      }
+    },
+    {
+      "bounds": {
+        "x": 21,
+        "y": 431,
+        "width": 376,
+        "height": 384
+      },
+      "action": {
+        "type": "postback",
+        "text": "運動飲料",
+        "data": "action=water_6"
+      }
+    },
+    {
+      "bounds": {
+        "x": 443,
+        "y": 448,
+        "width": 351,
+        "height": 358
+      },
+      "action": {
+        "type": "postback",
+        "text": "檸檬水",
+        "data": "action=water_7"
+      }
+    },
+    {
+      "bounds": {
+        "x": 853,
+        "y": 443,
+        "width": 393,
+        "height": 364
+      },
+      "action": {
+        "type": "postback",
+        "text": "蛋白飲",
+        "data": "action=water_8"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1288,
+        "y": 448,
+        "width": 359,
+        "height": 366
+      },
+      "action": {
+        "type": "postback",
+        "text": "碳酸飲料",
+        "data": "action=water_9"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1698,
+        "y": 452,
+        "width": 367,
+        "height": 346
+      },
+      "action": {
+        "type": "postback",
+        "text": "手搖杯",
+        "data": "action=water_10"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2099,
+        "y": 456,
+        "width": 384,
+        "height": 346
+      },
+      "action": {
+        "type": "postback",
+        "text": "返回首頁",
+        "data": "action=back&menu=00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "menu000",
+  "chatBarText": "首頁選單-尚未完成個人設定",
+  "areas": [
+    {
+      "bounds": {
+        "x": 836,
+        "y": 853,
+        "width": 803,
+        "height": 802
+      },
+      "action": {
+        "type": "postback",
+        "text": "健康新知",
+        "data": "action=suggest_info&menu=051"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1681,
+        "y": 845,
+        "width": 815,
+        "height": 810
+      },
+      "action": {
+        "type": "postback",
+        "text": "個人設定",
+        "data": "action=personal_setting"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1698,
+        "y": 13,
+        "width": 789,
+        "height": 810
+      },
+      "action": {
+        "type": "message",
+        "text": "功能尚未開放\n敬請期待😆😆😆"
+      }
+    }
+  ]
+}

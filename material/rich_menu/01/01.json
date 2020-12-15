@@ -1,0 +1,63 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "food",
+  "chatBarText": "請選擇營養素種類",
+  "areas": [
+    {
+      "bounds": {
+        "x": 21,
+        "y": 25,
+        "width": 1229,
+        "height": 376
+      },
+      "action": {
+        "type": "postback",
+        "text": "蛋白質",
+        "data": "action=food_1"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1284,
+        "y": 30,
+        "width": 1203,
+        "height": 371
+      },
+      "action": {
+        "type": "postback",
+        "text": "脂防",
+        "data": "action=food_2"
+      }
+    },
+    {
+      "bounds": {
+        "x": 30,
+        "y": 448,
+        "width": 1207,
+        "height": 371
+      },
+      "action": {
+        "type": "postback",
+        "text": "碳水化合物",
+        "data": "action=food_3"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1275,
+        "y": 452,
+        "width": 1217,
+        "height": 380
+      },
+      "action": {
+        "type": "postback",
+        "text": "返回首頁",
+        "data": "action=back&menu=00"
+      }
+    }
+  ]
+}

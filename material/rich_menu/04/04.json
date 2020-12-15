@@ -1,0 +1,53 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "search",
+  "chatBarText": "請選擇查詢項目",
+  "areas": [
+    {
+      "bounds": {
+        "x": 25,
+        "y": 8,
+        "width": 794,
+        "height": 828
+      },
+      "action": {
+        "type": "postback",
+        "text": "查詢今日",
+        "data": "action=search_today"
+      }
+    },
+    {
+      "bounds": {
+        "x": 840,
+        "y": 21,
+        "width": 815,
+        "height": 815
+      },
+      "action": {
+        "type": "datetimepicker",
+        "data": "action=search_his",
+        "mode": "date",
+        "initial": "2020-10-26",
+        "max": "2021-10-26",
+        "min": "2019-10-26"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1685,
+        "y": 17,
+        "width": 798,
+        "height": 819
+      },
+      "action": {
+        "type": "postback",
+        "text": "返回首頁",
+        "data": "action=back&menu=00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+[{
+  "type": "text",
+  "text": "感謝你關注FitnessBot🙇\n你可以根據自己的身體狀況\n輕鬆記錄每日飲食及運動💦\n給你最新的飲食與健身資訊\n讓FitnessBot陪你\n一起輕鬆健康管理💪🏻"
+}
+,{
+  "type": "sticker",
+  "packageId": "11539",
+  "stickerId": "52114122"
+}
+,{
+  "type": "template",
+  "altText": "this is a confirm template",
+  "template": {
+    "type": "confirm",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "gogogo~",
+        "text": "個人設定",
+        "data": "action=personal_setting"
+      },
+      {
+        "type": "postback",
+        "label": "later...",
+        "data": "action=none_setting&menu=000"
+      }
+    ],
+    "text": "請先設定您的個人基本資訊以操作完整的功能\uD83D\uDE47"
+  }
+}
+]

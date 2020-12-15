@@ -1,0 +1,89 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "rich_menu_00",
+  "chatBarText": "首頁-請選擇操作的類別",
+  "areas": [
+    {
+      "bounds": {
+        "x": 1719,
+        "y": 950,
+        "width": 701,
+        "height": 612
+      },
+      "action": {
+        "type": "postback",
+        "text": "個人設定",
+        "data": "action=personal_setting"
+      }
+    },
+    {
+      "bounds": {
+        "x": 101,
+        "y": 131,
+        "width": 672,
+        "height": 621
+      },
+      "action": {
+        "type": "postback",
+        "text": "紀錄食物",
+        "data": "action=record_food&menu=01"
+      }
+    },
+    {
+      "bounds": {
+        "x": 908,
+        "y": 144,
+        "width": 688,
+        "height": 612
+      },
+      "action": {
+        "type": "postback",
+        "text": "紀錄飲水",
+        "data": "action=record_water&menu=02"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1740,
+        "y": 135,
+        "width": 701,
+        "height": 625
+      },
+      "action": {
+        "type": "postback",
+        "text": "紀錄運動",
+        "data": "action=record_exercise"
+      }
+    },
+    {
+      "bounds": {
+        "x": 106,
+        "y": 942,
+        "width": 663,
+        "height": 599
+      },
+      "action": {
+        "type": "postback",
+        "text": "查詢紀錄",
+        "data": "action=search_record&menu=04"
+      }
+    },
+    {
+      "bounds": {
+        "x": 921,
+        "y": 941,
+        "width": 684,
+        "height": 622
+      },
+      "action": {
+        "type": "postback",
+        "text": "健康新知",
+        "data": "action=suggest_info&menu=05"
+      }
+    }
+  ]
+}

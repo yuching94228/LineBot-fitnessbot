@@ -1,0 +1,50 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "info_menu",
+  "chatBarText": "請選擇想瀏覽的新知類別",
+  "areas": [
+    {
+      "bounds": {
+        "x": 13,
+        "y": 8,
+        "width": 810,
+        "height": 824
+      },
+      "action": {
+        "type": "postback",
+        "text": "飲食新知",
+        "data": "action=info_food"
+      }
+    },
+    {
+      "bounds": {
+        "x": 840,
+        "y": 13,
+        "width": 815,
+        "height": 827
+      },
+      "action": {
+        "type": "postback",
+        "text": "運動新知",
+        "data": "action=info_exercise"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1677,
+        "y": 13,
+        "width": 806,
+        "height": 823
+      },
+      "action": {
+        "type": "postback",
+        "text": "返回首頁",
+        "data": "action=back&menu=00"
+      }
+    }
+  ]
+}

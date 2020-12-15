@@ -1,0 +1,64 @@
+[{
+  "type": "text",
+  "text": "請依照您的運動狀況點選您的運動量\uD83D\uDE47"
+},{
+  "type": "imagemap",
+  "baseUrl": "https://img.techpowerup.org/201025/exercise.png#",
+  "altText": "Please click on your exercise status.",
+  "baseSize": {
+    "width": 1040,
+    "height": 1022
+  },
+  "actions": [
+    {
+      "type": "message",
+      "area": {
+        "x": 4,
+        "y": 4,
+        "width": 1035,
+        "height": 198
+      },
+      "text": "運動量：久坐"
+    },
+    {
+      "type": "message",
+      "area": {
+        "x": 6,
+        "y": 208,
+        "width": 1031,
+        "height": 208
+      },
+      "text": "運動量：輕量活動"
+    },
+    {
+      "type": "message",
+      "area": {
+        "x": 12,
+        "y": 419,
+        "width": 1025,
+        "height": 194
+      },
+      "text": "運動量：中度活動量"
+    },
+    {
+      "type": "message",
+      "area": {
+        "x": 8,
+        "y": 618,
+        "width": 1025,
+        "height": 180
+      },
+      "text": "運動量：高度活動量"
+    },
+    {
+      "type": "message",
+      "area": {
+        "x": 8,
+        "y": 804,
+        "width": 1031,
+        "height": 215
+      },
+      "text": "運動量：非常高度活動量"
+    }
+  ]
+}]
